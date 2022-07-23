@@ -54,7 +54,7 @@ export default function Home() {
         <p></p>
         <p>Swear to be loyal to your criminal gang with an omerta and you can!</p>
         <p>become the biggest mob boss! Buy expensive cars and buildings and</p>
-        <p>show your power! It's a tough underworld</p>
+        <p>show your power! It&apos;s a tough underworld</p>
         <div className="sign-up-wrapper" >
           <div className="item1" >
           <p>Sign up</p>
