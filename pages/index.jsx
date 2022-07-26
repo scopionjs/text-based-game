@@ -1,8 +1,10 @@
 import Image from "next/image"
 import Link from "next/link"
 import Head from "next/head"
-export default function Home() {
-
+import { useRouter } from "next/router";
+import Footer from "./components/footer"
+export default function Index() {
+  let router=useRouter()
   return (
     <div>
       <Head>
@@ -28,7 +30,7 @@ export default function Home() {
         </div>
 
         <div className="item2" >
-          <button>login</button>
+          <button onClick={()=>{router.push("/overview")}} >login</button>
         </div>
 
       </div>
@@ -70,9 +72,7 @@ export default function Home() {
           </div>
         </div>
     </div>
-<footer>
-  <p>Copyright © 2022 - date | All Rights Reserved.</p>
-</footer>
+    <Footer></Footer>
     </div>
   );
 }

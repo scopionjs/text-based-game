@@ -1,0 +1,219 @@
+.whores_bars_wrapper{
+    display: flex;
+    
+    .whores_center_bar{
+        background: #161616;
+        flex: 2;
+        .box2_wrapper{
+            width: 100%;
+            display: flex;
+            gap: 3%;
+            overflow: hidden;
+            margin-top: 12px;
+            .item{
+                height: 300px;
+                width: 48%;
+                padding: 0;
+                background: #4E1111;
+                .box1{
+                    height:90%;
+                    width: 100%;
+                    margin: 0;
+                    display: flex;
+                    .whore_pic{
+                        width: 70%;
+                        position: relative;
+                    }
+                    .btns_wrapper{
+                        width: 30%;
+                       
+                        display: flex;
+                        flex-direction: column;
+                        gap: 2%;
+                        padding-left: 2px;
+                        button{
+                            width: 95%;
+                            flex: 1;
+                            border-radius: 0;
+                            background: #751919;
+                            display: flex;
+                            align-items: center;
+                            font-size: 11px;
+                            justify-content: center;
+                            cursor: pointer;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .box2{
+                    height:10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    p{
+                        color: rgb(218, 218, 218);
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-weight: bold;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        hr{
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 25px;
+        }
+        .box1{
+            display: flex;
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 5px;
+            p{
+                color: rgb(197, 194, 194);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: calc(100% - 120px);
+                font-size: 15px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            button{
+                border: none;
+                background: #4E1111;
+                width: 120px;
+                height: 25px;
+                color: rgb(204, 202, 202);
+                border-radius: 10px;
+            }
+        }
+        h1{
+            text-align: center;
+            margin-top: 10px;
+            color: #C71C1C;
+            font-family: sans-serif;
+
+        }
+        p.info{
+            color: rgb(151, 150, 150);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(226, 224, 224);
+            background:rgb(173, 15, 15) ;
+            font-weight:bold;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: 10px;
+            border-radius: 10px;
+            width: 150px;
+            gap:3%;
+        }
+        .link_wrapper{
+            width: 70%;
+            margin-left: 15%;
+            min-height: 35px;
+            max-height:auto;
+            border:2px solid #4E1111;
+            background-color: rgba(83, 18, 18,0.3);
+            display: flex;
+            margin-top: 15px;
+            overflow: hidden;
+            p{  overflow: hidden;
+                color: rgb(219, 216, 216);
+                font-style: italic;
+                width: 80%;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            button{
+                width: 20%;
+                background: #4E1111;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
+@media (max-width:650px){
+    .whores_bars_wrapper{
+        .whores_center_bar{
+                width: 100%;
+            .box2_wrapper{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 13px;
+                padding-bottom: 13px;
+                .item{
+                    height: 300px;
+                    max-width: 100%;
+                    min-width: 100%;
+                    .box2{
+                        p{
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+             hr{
+                 width: 100%;
+                 margin-left: 0px;
+             }
+            .box1{
+                width: 100%;
+                margin-left: 0px;
+                p{
+                    font-size: 8px;
+                    height: 100%;
+                    width: calc(100% - 80px);
+                }
+                button{
+                    font-size: 8px;
+                    width: 80px;
+                }
+            }
+            h1{
+                font-size: 15px;
+            }
+            p.info{
+                font-size: 8px;
+            }
+            a{
+                width:130px;
+                font-size: 7px;
+                svg{
+                    height: 12px;
+                }
+            }
+            .link_wrapper{
+                width: 95%;
+                margin-left: 2.5%;
+                p{
+                    font-size: 9px;
+                }
+                button{
+                    font-size: 8px;
+                    svg{
+                        height: 12px;
+                        width: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
