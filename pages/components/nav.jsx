@@ -17,6 +17,8 @@ export default function Nav() {
       </section>
       </div>
       {/* search bar */}
+
+      {/*
       <div className="search-bar-wrapper" >
            <section>
               <input placeholder="search" type="text" />
@@ -26,6 +28,8 @@ export default function Nav() {
            
            </section>
       </div>
+      */}
+      
       {/* brief-details */}
       <div className="brief-details-wrapper" >
           <div className="item" >
