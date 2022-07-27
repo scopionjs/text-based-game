@@ -4,9 +4,15 @@ import LeftBar from "./components/leftbar"
 import RightBar from "./components/rightbar"
 import Image from "next/image"
 import Link from "next/link"
+import Head from "next/head"
 export default function OverView() {
     return(
         <>
+        <Head>
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet" />
+        </Head>
         <Nav />
         <div className="over-view-bars-wrapper" >
             <LeftBar />

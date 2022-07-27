@@ -1,6 +1,9 @@
 .gangsters_bars_wrapper{
     display: flex;
     background: #161616;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     .gangsters_center_bar{
         flex: 2;
         .main_img{
@@ -209,6 +212,8 @@
 }
 @media (max-width:650px){
     .gangsters_bars_wrapper{
+        
+    width: 100%;
         .gangsters_center_bar{
             .main_img{
                 width: 100%;

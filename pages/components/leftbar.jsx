@@ -1,7 +1,7 @@
 import Link from "next/link"
 export default function LeftBar() {
     return(
-        <div className="left-bar" >
+        <div  className="left-bar shadow-left" >
             <section>
             <p>under-verse</p>
          <div className="item" >

@@ -1,5 +1,9 @@
 .home_bars_wrapper{
     display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
     .home_center{
         flex: 2;
         background: #161616;
@@ -72,6 +76,7 @@
 }
 @media (max-width:650px){
     .home_bars_wrapper{
+        width: 100%;
         .home_center{
             h1{
                 font-size: 15px;

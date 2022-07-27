@@ -1,6 +1,7 @@
 body{
     height: 100%;
     width: 100%;
+    background: #292929;
 }
 *{
     overflow-x: hidden;
@@ -8,6 +9,7 @@ body{
     margin: 0;
     padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 $secondary:#161616;
 /*TOP BAR */
 .top-bar-wrapper{
@@ -18,7 +20,7 @@ $secondary:#161616;
     align-items: center;
     justify-content: center;
     align-items: center;
-    background-color: rgb(209, 205, 205);
+    background:linear-gradient(180deg,rgb(27, 26, 26) 0% , rgb(209, 205, 205) 100%) ;
 }
 .top-bar-wrapper {
     .logo-wrapper{
@@ -502,13 +504,15 @@ footer{
 }
 /* Left and right bars  */
 .left-bar{
+    
 min-height: calc(100vh - 200px);
 max-height: auto;
 overflow-y:hidden ;
 flex: 1;
-background: #444444;
+background: linear-gradient(180deg ,#181717 0% ,#6d6d6d 20%);
 display: flex;
 flex-direction:column;
+
     section{
         padding-left: 20px;
         &::-webkit-scrollbar{
@@ -522,7 +526,7 @@ flex-direction:column;
             justify-content: center;
             gap: 8px;
             font-weight: 900;
-            font-family: Blippo, fantasy;
+            font-family: 'Alfa Slab One', cursive;
             margin-top: 20px;
             margin-bottom: 15px;
         }
@@ -533,7 +537,7 @@ flex-direction:column;
             padding-left: 5%;
             border-left: 5px solid #131313 ;
             a{
-                color: rgb(160, 157, 157);
+                color: rgb(199, 199, 199);
                 text-decoration: none;
                 text-transform: capitalize;
                 display: flex;
@@ -545,12 +549,24 @@ flex-direction:column;
 }
 .right-bar{
     @extend .left-bar
+    
+}
+.shadow-left{
+    box-shadow: -9px 11px 8px 10px rgba(0,0,0,0.75);
+-webkit-box-shadow: -9px 11px 8px 10px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px 11px 8px 10px rgba(0,0,0,0.75);
 }
 .over-view-bars-wrapper{
     width: 100%;
     min-height: calc(100vh - 200px);
     max-height:auto ;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
+    box-shadow: 1px 16px 14px 15px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 16px 14px 15px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 16px 14px 15px rgba(0,0,0,0.75);
     .overview-center{
         flex: 2;
         background: $secondary;
@@ -780,6 +796,9 @@ flex-direction:column;
 }
 .news-bars-wrapper{
     display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     .news-center-bars{
 
         background: #161616;
@@ -910,6 +929,8 @@ flex-direction:column;
         }
     }
     .news-bars-wrapper{
+        width: 100%;
+
         .news-center-bars{
             h1{
                 font-size: 15px;
@@ -925,6 +946,7 @@ flex-direction:column;
         }
     }
     .over-view-bars-wrapper{
+        width: 100%;
         .overview-center{
             .txt{
                 font-size: 8px;

@@ -1,6 +1,8 @@
 .whores_bars_wrapper{
     display: flex;
-    
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
     .whores_center_bar{
         background: #161616;
         flex: 2;
@@ -151,6 +153,7 @@
 }
 @media (max-width:650px){
     .whores_bars_wrapper{
+        width: 100%;
         .whores_center_bar{
                 width: 100%;
             .box2_wrapper{
