@@ -9,6 +9,7 @@ export default function Home() {
     return(
         <>
         <Nav />
+        <div className={styles.home_bars_main}  >
         <div className={styles.home_bars_wrapper} >
             <LeftBar />
         <div className={styles.home_center} >
@@ -31,6 +32,7 @@ export default function Home() {
             <p className={styles.txt}>set first if you are a man or at the  <Link  href=""><a  >edit profile</a></Link> then you can go to the <Link  href=""><a  >bedroom</a></Link> </p>
         </div>
             <RightBar />
+        </div>
         </div>
         <Footer />
         </>

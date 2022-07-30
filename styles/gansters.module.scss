@@ -1,3 +1,6 @@
+.gangsters_bars_main{
+    border-top: 7px solid #252a29;
+}
 .gangsters_bars_wrapper{
     display: flex;
     background: #161616;
@@ -6,6 +9,7 @@
     margin-right: auto;
     .gangsters_center_bar{
         flex: 2;
+        padding: 2%;
         .main_img{
             position: relative;
             width: 90%;
@@ -20,15 +24,19 @@
                 width: 30%;
                 min-height: 100px;
                 max-height: auto;
-                border: 2px solid #4E1111;
+                border: 2px solid #b48b02;
                 .item1{
                     min-height: 25px;
                     max-height: auto;
-                    background: #4E1111;
+                    background: #b48b02;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     font-weight: bold;
+                    p{
+                        color: rgb(37, 35, 35);
+                        text-transform: capitalize;
+                    }
                 }
                 .item2{
                     min-height: 50px;
@@ -36,6 +44,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    border: 2px solid #b48b02;
                 }
                 .item3{
                     min-height: 0px;
@@ -58,12 +67,16 @@
                 .item1{
                     min-height: 25px;
                     max-height: auto;
-                    background: #4E1111;
+                    background: #b48b02;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     font-weight: bold;
-                    border: 2px solid #4E1111;
+                    border: 2px solid #b48b02;
+                    p{
+                        color: rgb(37, 35, 35);
+                        text-transform: capitalize;
+                    }
                 }
                 .item2{
                     min-height: 50px;
@@ -71,7 +84,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    border: 2px solid #4E1111;
+                    border: 2px solid #b48b02;
                 }
                 .item3{
                     min-height: 0px;
@@ -79,7 +92,7 @@
                     display: flex;
                     flex-direction: column;
                     gap: 3px;
-                    border: 2px solid #4E1111;
+                    border: 2px solid #b48b02;
                     .img{
                         position: relative;
                         width: 100%;
@@ -95,12 +108,16 @@
                 .item1{
                     min-height: 25px;
                     max-height: auto;
-                    background: #4E1111;
+                    background: #b48b02;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     font-weight: bold;
-                    border: 2px solid #4E1111;
+                    border: 2px solid #b48b02;
+                    p{
+                        color: rgb(37, 35, 35);
+                        text-transform: capitalize;
+                    }
                 }
                 .item2{
                     min-height: 50px;
@@ -108,14 +125,14 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    border: 2px solid #4E1111;
+                    border: 2px solid #b48b02;
                 }
                 .item3{
                     min-height: 0px;
                     max-height: auto;
                     display: flex;
                     flex-direction: column;
-                    border: 2px solid #4E1111;
+                    border: 2px solid #b48b02;
                     gap: 3px;
                     .img{
                         position: relative;
@@ -132,21 +149,24 @@
             button{
                 border: none;
                 width: 30%;
-                background: #4E1111;
+                background:#775B00;
                 color: rgb(207, 205, 205);
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 border-radius: 15px;
                 cursor: pointer;
                 font-weight: bold;
                 height: 30px;
+                &:hover{
+                    background-color: #c29500;
+                }
             }
         }
         .link_wrapper{
-            width: 70%;
-            margin-left: 15%;
+            width: 95%;
+            margin-left: 2.5%;
             min-height: 35px;
             max-height:auto;
-            border:2px solid #4E1111;
+            border:2px solid #775B00;
             background-color: rgba(83, 18, 18,0.3);
             display: flex;
             margin-top: 15px;
@@ -163,7 +183,7 @@
             
             button{
                 width: 20%;
-                background: #4E1111;
+                background: #775B00;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -173,10 +193,12 @@
             }
         }
         h1{
-            text-align: center;
+            color: #D4D4D4;
+            text-align: left;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 600;
+            text-transform: capitalize;
             margin-top: 10px;
-            color: #C71C1C;
-            font-family: sans-serif;
         }
         p{
             color: rgb(151, 150, 150);

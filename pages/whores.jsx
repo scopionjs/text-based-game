@@ -11,6 +11,7 @@ export default function Whores() {
     return(
         <>
         <Nav />
+        <div className={styles.whores_bars_main} >
         <div className={styles.whores_bars_wrapper} >
             <LeftBar />
             <div className={styles.whores_center_bar} >
@@ -81,6 +82,7 @@ export default function Whores() {
 
             </div>
             <RightBar />
+        </div>
         </div>
         <Footer />
         </>

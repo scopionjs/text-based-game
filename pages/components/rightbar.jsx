@@ -5,7 +5,7 @@ export default function RightBar() {
     return(
         <div className="right-bar" >
         <section>
-            <p> <SettingsIcon /> settings</p>
+            <p>settings</p>
          
          <div className="item" >
              <Link href="#" ><a>messages</a></Link>
@@ -30,7 +30,7 @@ export default function RightBar() {
          <Link href="#" ><a>codes</a></Link>
          <Link href="#" ><a>payment</a></Link>
          </div>
-         <p> <GroupsIcon /> gangs</p>
+         <p>gangs</p>
          <div className="item" >
          <Link href="#" ><a>Join</a></Link>
          <Link href="#" ><a>create gang</a></Link>

@@ -33,9 +33,8 @@ export default function Nav() {
       {/* brief-details */}
       <div className="brief-details-wrapper" >
           <div className="item" >
-              <PersonIcon />
               <p>john doe</p>
-              <button> <Logout /></button>
+              <button style={{display:"none"}} > <Logout /></button>
           </div>
           <div className="item" >
           <section><Paid></Paid> <p>money:<span>$30,000</span></p></section>

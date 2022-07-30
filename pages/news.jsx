@@ -6,6 +6,7 @@ export default function News() {
     return(
         <>
         <Nav/>
+        <div className="news-main">
         <div className="news-bars-wrapper">
             <LeftBar/>
             <div className="news-center-bars" >
@@ -47,6 +48,7 @@ export default function News() {
                 </section>
             </div>
             <RightBar />
+        </div>
         </div>
         <Footer />
         </>

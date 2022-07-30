@@ -8,6 +8,7 @@ export default function Property() {
     return(
         <>
         <Nav />
+        <div className="property-bars-main" >
         <div className="property-bars-wrapper" >
             <LeftBar />
             <div className="property-center-bars" >
@@ -96,6 +97,7 @@ export default function Property() {
                 </div>
             </div>
             <RightBar />
+        </div>
         </div>
         <Footer />
         </>

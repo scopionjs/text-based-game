@@ -10,6 +10,7 @@ export default function OverView() {
         <>
         
         <Nav />
+        <div className="over-view-main" >
         <div className="over-view-bars-wrapper" >
             <LeftBar />
 
@@ -92,6 +93,7 @@ export default function OverView() {
                 <p className="txt">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
             </div>
             <RightBar />
+        </div>
         </div>
         <Footer/>
         </>

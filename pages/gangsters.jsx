@@ -10,6 +10,7 @@ export default function Gangsters() {
  return(
      <>
      <Nav />
+     <div className={styles.gangsters_bars_main} >
      <div className={styles.gangsters_bars_wrapper} >
          <LeftBar />
          <div className={styles.gangsters_center_bar} >
@@ -91,6 +92,7 @@ export default function Gangsters() {
             <br /><br />
          </div>
          <RightBar   />
+     </div>
      </div>
      <Footer />
      </>
