@@ -16,7 +16,7 @@ export default function LeftBar() {
              <Link href="#" ><a>credit</a></Link>
              <Link href="#" ><a>online members</a></Link>
              <Link href="#" ><a>chat</a></Link>
-             <Link href="#" ><a>explanation</a></Link>
+             <Link href="/explanation" ><a>explanation</a></Link>
              <Link href="#" ><a>Help desk</a></Link>
          </div>
          <p>city</p>

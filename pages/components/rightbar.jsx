@@ -11,7 +11,7 @@ export default function RightBar() {
              <Link href="#" ><a>messages</a></Link>
              <Link href="#" ><a>edit profile</a></Link>
              <Link href="#" ><a>profile</a></Link>
-             <Link href="#" ><a>settings</a></Link>
+             <Link href="/settings" ><a>settings</a></Link>
              
          </div>
          <p>crimes</p>
