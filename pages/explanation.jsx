@@ -58,8 +58,8 @@ Once you{"'"}re accepted to that gang, visit the old gang, go to the building yo
                      <p>Up to 2 billion.</p>
                      <br />
                      <h2>What about scams?</h2>
-                     <p>If you want to do business with someone in the game, make sure you use an intermediary. There are some designated by Gangs. Gangs don't do anything about scams. Gangs do not support mutual credit trading. Are you getting scammed, and are credits involved? Depending on the situation, the person who has not delivered credits in the game may be penalized. You have not made an appointment with Gangs but with another player and therefore Gangs will not reimburse you for damage.</p>
-                     
+                     <p>If you want to do business with someone in the game, make sure you use an intermediary. There are some designated by Gangs. Gangs don{"'"}t do anything about scams. Gangs do not support mutual credit trading. Are you getting scammed, and are credits involved? Depending on the situation, the person who has not delivered credits in the game may be penalized. You have not made an appointment with Gangs but with another player and therefore Gangs will not reimburse you for damage.</p>
+
                 </div>
                 <RightBar />
             </div>
